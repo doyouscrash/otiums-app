@@ -7,6 +7,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage, IntroPage, TabsPage} from "../pages/index.pages"
 
+
+
+import { Pro } from '@ionic/pro';
+
+const IonicPro = Pro.init('7049a018', {
+  appVersion: "73d52a"
+});
+
+
 @NgModule({
   declarations: [
     MyApp,

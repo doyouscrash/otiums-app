@@ -13,13 +13,13 @@ skipMsg: string = "Omitir";
 
   slides:any[] = [
     {
-      title: "Bienvenido!!!",
-      description: "Esta <b>aplicación</b> nos ayudará a comprender muchos temas interesantes en ionic!",
+      title: "Bienvenido a Otiums!",
+      description: "Sigue el asistente y conoce que puedes hacer con <b>Otiums</b>!",
       image: "assets/imgs/ica-slidebox-img-1.png",
     },
     {
       title: "¿Qué es Otiums?",
-      description: "<b>Ionic Framework</b> es un SDK abierto que le permite a los desarrolladores crear aplicaciones móviles de alta calidad con el conocimiento de JavaScript, CSS y HTML.",
+      description: "<b>Otiums</b> te ayudará a encontrar las mejores ofertas y descuentos cerca de ti.",
       image: "assets/imgs/ica-slidebox-img-2.png",
     },
     {
@@ -35,6 +35,5 @@ skipMsg: string = "Omitir";
   skip_intro () {
     this.navCtrl.setRoot(HomePage);
   }
-
 
 }
